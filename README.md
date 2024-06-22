@@ -20,7 +20,7 @@ A simple honeypot server made using _Python_
 
 ![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)
 
-![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/372d9180-0272-441b-8f29-98fb4b8546f3)
+
 
 ## Features
 
