@@ -1,6 +1,7 @@
 # Honeypot Project
 
-![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/c1743e5d-d556-45fb-95dd-895e5dc0f1e2)
+![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/050939a2-ab3a-4f48-bf62-5eee456b79fb)
+
 
 
 
@@ -19,6 +20,8 @@ Honeypot - 26th June (1st Semester)
 A simple honeypot server made using _Python_
 
 ![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)
+
+![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/c1743e5d-d556-45fb-95dd-895e5dc0f1e2)
 
 
 
