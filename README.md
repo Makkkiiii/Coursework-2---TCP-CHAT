@@ -54,7 +54,7 @@ You can just make the script executable by adding the following command
 ```
 #!/usr/bin/env python
 ```
-After that just run the file by giving it permission 
+Give permissions
 ```
 chmod +x honeypot.py
 ```
