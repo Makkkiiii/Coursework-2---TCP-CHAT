@@ -11,7 +11,8 @@ Honeypot - 26th June (1st Semester)
 
 A simple honeypot server made using _Python_
 
-https://img.icons8.com/?size=100&id=Rc0Xn5AtE8kX&format=png&color=000000 
+![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)
+ 
 
 
 
