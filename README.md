@@ -20,7 +20,13 @@ A simple honeypot server made using _Python_
 
 ![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)
 
+## Features
 
+
+## Getting Started
+To get started, you can either compile the source code or use the pre-compiled executable file.
+
+## Working
 
 # Installations
 
