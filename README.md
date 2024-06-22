@@ -52,13 +52,12 @@ You can just make the script executable by adding the following command
 After that just run the file by giving it permission 
 ```
 chmod +x honeypot.py
-./honeypot.py
 ```
 
 ### 3. Launching the program:
 
 ```
-./password_generator.c
+./honeypot.py
 ```
 
 ## 3. FOR MAC
