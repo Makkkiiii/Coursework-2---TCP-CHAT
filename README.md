@@ -17,6 +17,75 @@ A simple honeypot server made using _Python_
 
 
 
+# Installations
 
+## 1. FOR WINDOWS
+
+
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/8d509ad9-1d1a-467b-89d0-7d479f42d2d4)
+
+* Download the zip file.
+* Unzip the zip file.
+* Run it on your machine.
+
+## 2. FOR LINUX 
+
+
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/87344c86-3469-437f-a53f-cae2531541f8)
+
+### Use **Text Editor** like:
+- Mousepad
+- Vim
+- Nano
+- Gedit
+
+### 1. Clone the repository:
+   ```
+   git clone https://github.com/Makkkiiii/Honeypot.git
+   ```
+### 2. Compiling
+
+You can just make the script executable by adding the following command 
+```
+#!/usr/bin/env python
+```
+After that just run the file by giving it permission 
+```
+chmod +x honeypot.py
+./honeypot.py
+```
+
+### 3. Launching the program:
+
+```
+./password_generator.c
+```
+
+## 3. FOR MAC
+
+
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/1c970412-db98-4f30-a1bf-b87ae00f8ce3)
+
+
+_It is similar to Linux and Windows._
+
+You can use coding software, a terminal, or just clone it.
+
+Use the desired text editor.
+
+
+
+## Steps
+
+Follow the given instructions inside the program
+
+## Tools Used
+
+
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                          ![Papirus-Team-Papirus-Apps-Nvim 96](https://github.com/Makkkiiii/Password-Generator/assets/148240694/3f6a6c1a-5a5a-4ffd-a0d6-839d9fa9df3a)
+
+
+
+This program was written in C using Visual Studio Code and Neovim.
 
 
