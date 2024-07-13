@@ -1,4 +1,4 @@
-# Honeypot Project
+# TCP Chat Room Project
 
 ![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/050939a2-ab3a-4f48-bf62-5eee456b79fb)
 
