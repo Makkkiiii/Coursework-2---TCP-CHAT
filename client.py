@@ -1,8 +1,9 @@
 '''
-STUDENT NAME: DENISH MAHARJAN
-PROJECT ASSIGNED DATE: 06/07/2024
-PROJECT SUBMISSION DATE: 18/08/2024
-PROJECT TITLE: Honeypot
+
+Student Name: Denish Maharjan
+Assigned Date: 2024-07-01
+Submission Date: 2024-08-18
+Coursework 2 Title: TCP Chatting System. (Client-Side Implementation)
 
 '''
 
