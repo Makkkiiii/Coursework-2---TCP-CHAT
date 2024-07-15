@@ -19,7 +19,7 @@ TCP Chat Room - 26th June (1st Semester)
 
 A TCP Chatting room(CLI AND GUI Based) made using _Python_
 
-![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)                                                       ![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/c1743e5d-d556-45fb-95dd-895e5dc0f1e2)
+![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)                                                       ![image](https://github.com/user-attachments/assets/8a547240-c083-452c-8985-2970009c662e)
 
 
 
@@ -76,7 +76,9 @@ chmod +x client.py
 ```
 ./server.py
 ./client.py
+
 OR
+
 python3 server.py
 python3 client.py
 ```
