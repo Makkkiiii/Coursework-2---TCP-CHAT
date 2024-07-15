@@ -27,9 +27,16 @@ A TCP Chatting room (CLI AND GUI Based) made using _Python_
 
 ## Features
 
+- Connecting with multiple users
+- Admin Privilege
+- Banning and Kicking users and Closing the server
+- Can connect locally and by hosting on the same network
+- Easy to connect with one simple command
+- GUI and CLI based (Both available)
+
 
 ## Getting Started
-To get started, you can either compile the source code or use the pre-compiled executable file.
+You can either compile the source code or use the pre-compiled executable file to get started.
 
 ## Working
 
