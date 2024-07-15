@@ -34,6 +34,8 @@ def handle(client):
     while True:
         try:
             msg = message = client.recv(1024)
+            if not msg:
+                break
             if msg.decode('ascii').startswith('KICK'):
                 if nicknames[clients.index(client)] == 'admin':
                     name_to_kick = msg.decode('ascii')[5:]
@@ -45,12 +47,27 @@ def handle(client):
                 if nicknames[clients.index(client)] == 'admin':
                     name_to_ban = msg.decode('ascii')[4:]
                     kick_user(name_to_ban)
+                    broadcast(f'{name_to_ban} got BANNED!'.encode('ascii'))  # Notify clients of ban
                     with open('bans.txt', 'a') as f:
                         f.write(f'{name_to_ban}\n')
                     print(f'{name_to_ban} got BANNED!')
                     pass
                 else:
                     client.send('REFUSED to connect!'.encode('ascii'))
+            elif msg.decode('ascii').strip() == '/leave':
+                index = clients.index(client)
+                nickname = nicknames[index]
+                clients.remove(client)
+                client.close()
+                nicknames.remove(nickname)
+                broadcast(f'{nickname} left the chat!'.encode('ascii'))
+                break
+            elif msg.decode('ascii').strip() == '/close':
+                if nicknames[clients.index(client)] == 'admin':
+                    broadcast('Server is closing. Goodbye all!'.encode('ascii'))
+                    break
+                else:
+                    client.send('Only admin can close the server.'.encode('ascii'))
             else:  
                 broadcast(message)
                 
@@ -127,4 +144,10 @@ if __name__ == '__main__':
         receive()
     except Exception as e:
         print(f"Error occurred: {e}")
+    finally:
+        print("Closing server...")
+        for client in clients:
+            client.send('/serverclosed'.encode('ascii'))
+            client.close()
+        server.close()
 
