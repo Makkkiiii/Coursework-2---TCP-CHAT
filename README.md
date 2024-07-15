@@ -57,7 +57,7 @@ To get started, you can either compile the source code or use the pre-compiled e
 
 ### 1. Clone the repository:
    ```
-   git clone https://github.com/Makkkiiii/Honeypot.git
+   git clone https://github.com/Makkkiiii/Coursework2-TCPChatRoom.git
    ```
 ### 2. Compiling
 
@@ -67,13 +67,18 @@ You can just make the script executable by adding the following command
 ```
 Give permissions
 ```
-chmod +x honeypot.py
+chmod +x server.py
+chmod +x client.py
 ```
 
 ### 3. Launching the program:
 
 ```
-./honeypot.py
+./server.py
+./client.py
+OR
+python3 server.py
+python3 client.py
 ```
 
 ## 3. FOR MAC
