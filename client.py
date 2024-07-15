@@ -4,11 +4,9 @@ Assigned Date: 2024-07-01
 Submission Date: 2024-08-18
 Coursework 2 Title: TCP Chatting System (Client Side Implementation)
 '''
-
+#!/usr/bin/env python3
 import socket
 import threading
-
-#BANNER
 from colorama import Fore, Style, init
 
 # Initialize colorama
@@ -31,7 +29,7 @@ def banner():
         print(line)
     print(Style.RESET_ALL)
 
-# Call the function
+# Call the function to display the banner
 banner()
 print()
 
@@ -65,6 +63,14 @@ def receive():
                     print('You are BANNED and CANNOT join the chat!!!')
                     client.close()
                     stop_thread = True
+            elif message.startswith('/serverclosed'):
+                print("Server closed. Disconnecting...")
+                client.close()
+                stop_thread = True
+            elif message.startswith('You were kicked'):
+                print(message)  # Display kick message
+                client.close()
+                stop_thread = True
             else:
                 print(message)
         except Exception as e:
@@ -78,12 +84,19 @@ def write():
     while not stop_thread:
         try:
             message = input("")
-            if message.startswith('/'):
+            if message.strip() == '/leave':
+                client.send(message.encode('ascii'))
+                print("Leaving the chat...")
+                stop_thread = True
+            elif message.startswith('/'):
                 if nickname == 'admin':
                     if message.startswith('/kick'):
                         client.send(f'KICK {message[6:]}'.encode('ascii'))
                     elif message.startswith('/ban'):
                         client.send(f'BAN {message[5:]}'.encode('ascii'))
+                    elif message.strip() == '/close':
+                        client.send('/close'.encode('ascii'))  # Command to close the server
+                        stop_thread = True
                 else:
                     print("Commands can only be executed by the admin.")
             else:
@@ -100,3 +113,13 @@ receive_thread.start()
 # Thread for writing messages
 write_thread = threading.Thread(target=write)
 write_thread.start()
+
+# Handling disconnection message from server
+try:
+    while not stop_thread:
+        pass
+except KeyboardInterrupt:
+    print("\nClosing the chat...")
+finally:
+    stop_thread = True
+    client.close()
