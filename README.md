@@ -109,6 +109,6 @@ Follow the given instructions inside the program
 
 
 
-This program was written in C using Visual Studio Code and Neovim.
+This program was written in Python using Visual Studio Code and Neovim.
 
 
