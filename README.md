@@ -1,9 +1,7 @@
 # TCP Chat Room Project
 
-![Designer](https://github.com/user-attachments/assets/5278c6d5-397b-4f66-ac36-e99a38c48bb6)
 
-
-
+![Designer (1)](https://github.com/user-attachments/assets/6ea6aff5-354a-42f7-8e11-877f7d0a28e4)
 
 
 
