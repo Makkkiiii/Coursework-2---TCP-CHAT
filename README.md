@@ -17,7 +17,7 @@ TCP Chat Room - 26th June (1st Semester)
 
 ## About
 
-A TCP Chatting room(CLI AND GUI Based) made using _Python_
+A TCP Chatting room (CLI AND GUI Based) made using _Python_
 
 ![image](https://github.com/Makkkiiii/Honeypot/assets/148240694/8736df73-94cb-4973-9f56-68ed62e746e9)                                                       ![image](https://github.com/user-attachments/assets/8a547240-c083-452c-8985-2970009c662e)
 
