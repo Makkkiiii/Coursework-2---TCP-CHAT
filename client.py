@@ -1,10 +1,11 @@
+#!/usr/bin/env python3
 '''
 Student Name: Denish Maharjan
 Assigned Date: 2024-07-01
 Submission Date: 2024-08-18
 Coursework 2 Title: TCP Chatting System (Client Side Implementation)
 '''
-#!/usr/bin/env python3
+
 import socket
 import threading
 from colorama import Fore, Style, init
