@@ -116,4 +116,18 @@ Follow the given instructions inside the program
 
 This program was written in Python using Visual Studio Code.
 
+# Video Demo
+## FOR CLI
+
+
+https://github.com/user-attachments/assets/12a9ff28-5440-4650-a408-a69068feaa3f
+
+
+
+
+
+
+## FOR GUI 
+https://github.com/user-attachments/assets/bf76838a-9796-4662-b53d-09a767bfef97
+
 
