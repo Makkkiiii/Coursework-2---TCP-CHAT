@@ -83,4 +83,4 @@ class Client:
                 self.client.close()
                 break
 
-client = Client(HOST, PORT)
+client = Client(HOST, PORT) 
